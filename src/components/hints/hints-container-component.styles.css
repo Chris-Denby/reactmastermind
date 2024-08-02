@@ -1,0 +1,11 @@
+.hints-container {
+    background-color: grey;
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    border-radius: 10px;
+    align-items: center;
+    justify-items: center;
+}

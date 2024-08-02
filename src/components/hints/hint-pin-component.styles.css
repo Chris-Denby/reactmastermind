@@ -1,0 +1,14 @@
+.hint-pin {
+    /* background-color: darkgrey; */
+    border-radius: 25px;
+    height: 10px;
+    width: 10px;
+}
+
+.grade1 {
+    background-color: white;
+}
+
+.grade2 {
+    background-color: black;
+}

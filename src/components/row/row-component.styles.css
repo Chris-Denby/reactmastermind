@@ -1,0 +1,21 @@
+.row-container {
+    display: grid;
+    column-count: 4;
+    grid-auto-flow: column;
+    margin-top: 10px;
+    grid-gap: 10px;
+    border-radius: 10px;
+    background-color: rgb(218, 218, 7);
+    align-items: center;
+    padding: 5px;
+}
+
+.solutionRow {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: orangered;
+}
+
+.inactive {
+    background-color: rgb(53, 52, 52);
+}

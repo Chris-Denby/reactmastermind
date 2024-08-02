@@ -1,0 +1,13 @@
+button {
+    background-color: whitesmoke;
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    border-radius: 10px;
+    align-items: center;
+    justify-items: center;
+    border-style:solid;
+    border-width: 0px;
+    font-size: x-large;
+
+}

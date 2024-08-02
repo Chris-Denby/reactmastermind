@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { GameOutcomeProvider } from './components/contexts/game-outcome-context';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <GameOutcomeProvider>
     <App />
+    </GameOutcomeProvider>
   </React.StrictMode>
 );
 
